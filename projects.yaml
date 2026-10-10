@@ -13,6 +13,7 @@
 #   languages    (optional) Implementation languages, shown with colored dots
 #   hosted_on    (optional) Shown as a small note, e.g. "PythonAnywhere"
 #   featured     (optional) true = shown as a wide card at the top
+#   section      (optional) Heading to group this card under, below the main grid (e.g. "Work in progress")
 #   hidden       (optional) true = skip this entry without deleting it
 
 site:
@@ -111,3 +112,14 @@ projects:
     image: https://raw.githubusercontent.com/mykkro/landscaper/main/docs/screenshot.png
     tags: [tool, procedural, terrain]
     languages: [Python]
+
+  - title: "404: Dragon Not Found"
+    repo: https://github.com/mykkro/godot-game
+    description: >
+      A rogue-like, top-down RPG starter kit in Godot 4: an endless procedural world with six biomes,
+      fog of war, crafting, shops, quests and turn-based combat against 84 monster species.
+      There's no goal or ending yet.
+    image: https://raw.githubusercontent.com/mykkro/godot-game/main/docs/images/title-screen.png
+    tags: [game, Godot, rogue-like, RPG]
+    languages: [GDScript]
+    section: Work in progress

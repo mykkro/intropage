@@ -3,7 +3,7 @@
   const LANGUAGE_COLORS = {
     JavaScript: '#f1e05a', TypeScript: '#3178c6', Python: '#3572a5', HTML: '#e34c26',
     CSS: '#663399', Svelte: '#ff3e00', Rust: '#dea584', Go: '#00add8', Java: '#b07219',
-    'C++': '#f34b7d', C: '#555555', 'C#': '#178600', Lua: '#000080', GLSL: '#5686a5',
+    'C++': '#f34b7d', C: '#555555', 'C#': '#178600', Lua: '#000080', GLSL: '#5686a5', GDScript: '#355570',
   };
 
   const status = document.getElementById('status');
@@ -83,12 +83,33 @@
     if (p.featured) {
       card.classList.add('featured');
       document.getElementById('featured').appendChild(card);
+    } else if (p.section) {
+      sectionGrid(p.section).appendChild(card);
     } else {
       document.getElementById('grid').appendChild(card);
     }
   }
 
   status.remove();
+
+  // Named sections appear below the main grid, in order of first use.
+  function sectionGrid(name) {
+    const sections = document.getElementById('sections');
+    for (const sec of sections.children) {
+      if (sec.dataset.name === name) return sec.querySelector('.grid');
+    }
+    const sec = document.createElement('section');
+    sec.className = 'section';
+    sec.dataset.name = name;
+    const h = document.createElement('h2');
+    h.className = 'section-title';
+    h.textContent = name;
+    const grid = document.createElement('div');
+    grid.className = 'grid';
+    sec.append(h, grid);
+    sections.appendChild(sec);
+    return grid;
+  }
 
   function setPlaceholder(hero, title) {
     hero.innerHTML = '';

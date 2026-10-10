@@ -142,6 +142,14 @@ a { color: var(--accent); }
   .card.featured .description { flex: 0; font-size: 1.05rem; }
 }
 
+.section { margin-top: 56px; }
+.section-title {
+  margin: 0 0 20px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border);
+  font-size: 1.4rem;
+}
+
 .status { color: var(--muted); }
 .status.error { color: #c0392b; }
 

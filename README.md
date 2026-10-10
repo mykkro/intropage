@@ -17,7 +17,7 @@ Append an entry to `projects.yaml` and push:
     languages: [JavaScript, HTML]
 ```
 
-The comment at the top of `projects.yaml` lists the optional fields: `image_fit`, `image_bg`, `hosted_on`, `featured` and `hidden`.
+The comment at the top of `projects.yaml` lists the optional fields: `image_fit`, `image_bg`, `hosted_on`, `featured`, `section` and `hidden`.
 Leave out `url` for a project with no live demo: its card then links to the GitHub repo.
 Order in the file is order on the page. Entries without an image get a lettered placeholder.
 
