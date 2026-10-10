@@ -14,6 +14,7 @@ Append an entry to `projects.yaml` and push:
     description: What it is, in one or two sentences.
     image: images/my-new-demo.png   # or an absolute URL
     tags: [game, WebGL2]
+    languages: [JavaScript, HTML]
 ```
 
 The comment at the top of `projects.yaml` lists the optional fields: `image_fit`, `image_bg`, `hosted_on`, `featured` and `hidden`.

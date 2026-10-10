@@ -1,4 +1,11 @@
 (async function () {
+  // Dot colors, as on GitHub. Unlisted languages get a gray dot.
+  const LANGUAGE_COLORS = {
+    JavaScript: '#f1e05a', TypeScript: '#3178c6', Python: '#3572a5', HTML: '#e34c26',
+    CSS: '#663399', Svelte: '#ff3e00', Rust: '#dea584', Go: '#00add8', Java: '#b07219',
+    'C++': '#f34b7d', C: '#555555', 'C#': '#178600', Lua: '#000080', GLSL: '#5686a5',
+  };
+
   const status = document.getElementById('status');
 
   let config;
@@ -48,6 +55,15 @@
       li.textContent = t;
       tags.appendChild(li);
     }
+
+    const langs = card.querySelector('.langs');
+    for (const name of p.languages || []) {
+      const li = document.createElement('li');
+      li.textContent = name;
+      li.style.setProperty('--dot', LANGUAGE_COLORS[name] || '#8b8b96');
+      langs.appendChild(li);
+    }
+    if (!langs.children.length) langs.remove();
 
     const open = card.querySelector('.open');
     const repo = card.querySelector('.repo');
