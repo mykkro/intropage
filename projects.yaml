@@ -84,3 +84,12 @@ projects:
       in a Web Worker. Ported from a 2002 Java desktop app, with a small Flask backend for saving views.
     image: https://raw.githubusercontent.com/mykkro/fractal-explorer-web/main/preview.png
     tags: [app, fractals, Flask]
+
+  - title: BoxMaker
+    url: https://mykkro.github.io/boxmaker/
+    repo: https://github.com/mykkro/boxmaker
+    description: >
+      A visual designer for custom organiser boxes. Draw compartments on a grid, add dividers, check
+      the live 3D preview, and download an STL file ready for 3D printing.
+    image: https://raw.githubusercontent.com/mykkro/boxmaker/main/media/boxmaker.jpg
+    tags: [tool, 3D printing, STL]
