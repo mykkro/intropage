@@ -1,0 +1,86 @@
+# Front-page configuration.
+# Edit this file and push. The page reloads it on every visit, so there's no build step.
+#
+# Fields for each project:
+#   title        (required) Display name
+#   url          (optional) Live demo. Without it, the card links to the repo instead
+#   repo         (optional) GitHub repository URL. At least one of url / repo is needed
+#   description  (required) One or two sentences
+#   image        (optional) Hero image: an absolute URL or a path inside this repo (e.g. images/foo.png)
+#   image_fit    (optional) "cover" (default, fills the frame) or "contain" (whole image, centered; good for icons)
+#   image_bg     (optional) Background color behind a "contain" image
+#   tags         (optional) List of short labels
+#   hosted_on    (optional) Shown as a small note, e.g. "PythonAnywhere"
+#   featured     (optional) true = shown as a wide card at the top
+#   hidden       (optional) true = skip this entry without deleting it
+
+site:
+  title: mykkro / demos
+  tagline: Small browser games and experiments, built with plain JavaScript and WebGL.
+  github: https://github.com/mykkro
+
+projects:
+  - title: rk/noid
+    url: https://mykkro.github.io/rk-noid/
+    repo: https://github.com/mykkro/rk-noid
+    description: >
+      An isometric 3D brick breaker in the spirit of Arkanoid and the ZX Spectrum classic Ballbreaker.
+      Raw WebGL2, no libraries, and every texture and sound is generated in code.
+    image: https://raw.githubusercontent.com/mykkro/rk-noid/main/assets/screenshots/gameplay-hive.png
+    tags: [game, WebGL2, 3D]
+    featured: true
+
+  - title: Chicken Island
+    url: https://mykkro.eu.pythonanywhere.com/
+    repo: https://github.com/mykkro/cikn-ajlend
+    description: >
+      A cozy 3D game on a procedurally generated island. Collect eggs from the chickens, share them
+      with a wise young gorilla, swim with dolphins, and watch out for the shark.
+    image: https://raw.githubusercontent.com/mykkro/cikn-ajlend/main/media/island.png
+    tags: [game, WebGL2, Flask]
+    hosted_on: PythonAnywhere
+
+  - title: Moon Lander
+    url: https://mykkro.github.io/munlendr/
+    repo: https://github.com/mykkro/munlendr
+    description: >
+      A toon-shaded 3D lunar lander. Land gently, save fuel, beat your best score.
+      Available in English and Czech.
+    image: https://mykkro.github.io/munlendr/assets/title.svg
+    tags: [game, 3D]
+
+  - title: Puppetz
+    url: https://mykkro.github.io/puppetz/
+    repo: https://github.com/mykkro/puppetz
+    description: >
+      Toy-like jointed 3D puppet characters described in JSON, with procedural idle, walk and eat
+      animations. Exported to GLB for Panda3D and Bevy. Starring a shark who walks like a dinosaur.
+    image: https://raw.githubusercontent.com/mykkro/puppetz/main/docs/images/hero-shark.png
+    tags: [demo, three.js, animation]
+
+  - title: Lingu
+    url: https://mykkro.github.io/lingu/
+    repo: https://github.com/mykkro/lingu
+    description: >
+      A playful vocabulary trainer for 22 languages, starring Lingu the penguin.
+      Flash cards, Word Cloud and Blitz modes, with about 2,000 words.
+    image: https://mykkro.github.io/lingu/icon.svg
+    image_fit: contain
+    image_bg: "#f4e3d6"
+    tags: [app, languages]
+
+  - title: LAZER-NG
+    repo: https://github.com/mykkro/lazer-ng
+    description: >
+      A top-down vertical scrolling shooter: a browser rewrite of an unreleased 2002 DOS game
+      written in x86 assembly. Alien fighters, 48 gun towers and two boss fights.
+    image: https://raw.githubusercontent.com/mykkro/lazer-ng/main/assets/simple-preview.png
+    tags: [game, shooter, retro]
+
+  - title: Fractal Explorer
+    repo: https://github.com/mykkro/fractal-explorer-web
+    description: >
+      Escape-time fractals in the browser (Mandelbrot, Julia, Phoenix, Newton and more), rendered
+      in a Web Worker. Ported from a 2002 Java desktop app, with a small Flask backend for saving views.
+    image: https://raw.githubusercontent.com/mykkro/fractal-explorer-web/main/preview.png
+    tags: [app, fractals, Flask]

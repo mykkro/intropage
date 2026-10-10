@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>mykkro / demos</title>
+  <meta name="description" content="Small browser games and experiments by mykkro.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎮</text></svg>">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1 id="site-title">mykkro / demos</h1>
+    <p id="site-tagline" class="tagline"></p>
+  </header>
+
+  <main>
+    <div id="featured"></div>
+    <div id="grid" class="grid"></div>
+    <p id="status" class="status">Loading…</p>
+  </main>
+
+  <footer class="site-footer">
+    <a id="site-github" href="https://github.com/mykkro">GitHub</a>
+  </footer>
+
+  <template id="card-template">
+    <article class="card">
+      <a class="hero" target="_blank" rel="noopener">
+        <img alt="" loading="lazy">
+      </a>
+      <div class="body">
+        <h2 class="title"></h2>
+        <ul class="tags"></ul>
+        <p class="description"></p>
+        <div class="actions">
+          <a class="btn primary open" target="_blank" rel="noopener">Open ▸</a>
+          <a class="btn repo" target="_blank" rel="noopener">GitHub</a>
+          <span class="hosted"></span>
+        </div>
+      </div>
+    </article>
+  </template>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
