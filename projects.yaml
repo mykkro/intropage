@@ -123,3 +123,14 @@ projects:
     tags: [game, Godot, rogue-like, RPG]
     languages: [GDScript]
     section: Work in progress
+
+  - title: The Ninth Meridian
+    url: https://mykkro.github.io/ninth-meridian/
+    repo: https://github.com/mykkro/ninth-meridian
+    description: >
+      A browser RPG prototype about a voyage across Europe in search of a missing scholar. NPCs
+      speak their own languages, so phrasebooks, scrolls and travelling companions help you understand them.
+    image: https://raw.githubusercontent.com/mykkro/ninth-meridian/main/assets/voyage-cover.png
+    tags: [game, RPG, languages, prototype]
+    languages: [JavaScript, HTML, Python]
+    section: Work in progress
