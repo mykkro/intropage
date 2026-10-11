@@ -44,6 +44,13 @@ projects:
     languages: [JavaScript, Python]
     hosted_on: PythonAnywhere
 
+  - title: Citymaker
+    url: https://mykkro.github.io/citymaker/
+    repo: https://github.com/mykkro/citymaker
+    description: >
+      A city-making experiment in the browser.
+    tags: [demo, city]
+
   - title: Moon Lander
     url: https://mykkro.github.io/munlendr/
     repo: https://github.com/mykkro/munlendr
