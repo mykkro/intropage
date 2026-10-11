@@ -49,6 +49,7 @@ projects:
     repo: https://github.com/mykkro/citymaker
     description: >
       A city-making experiment in the browser.
+    image: https://raw.githubusercontent.com/mykkro/citymaker/main/media/town.png
     tags: [demo, city]
 
   - title: Moon Lander
