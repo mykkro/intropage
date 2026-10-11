@@ -48,7 +48,8 @@ projects:
     url: https://mykkro.github.io/citymaker/
     repo: https://github.com/mykkro/citymaker
     description: >
-      A city-making experiment in the browser.
+      A browser-based city-making experiment. Explore the idea of building a town
+      and shaping your own little urban world.
     image: https://raw.githubusercontent.com/mykkro/citymaker/main/media/town.png
     tags: [demo, city]
 
