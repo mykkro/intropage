@@ -122,6 +122,15 @@ projects:
     tags: [tool, procedural, terrain]
     languages: [Python]
 
+  - title: Slidezz
+    repo: https://github.com/mykkro/slidezz
+    description: >
+      A slides editor and generator, like very simplified Powerpoint. Generates slides from YAML or JSON. Good if you want to generate slide contents as text quickly via AI tools. A lightweight version can be statically served, otherwise it uses small Python backend.
+    image: https://raw.githubusercontent.com/mykkro/slidezz/main/docs/editor.png
+    tags: [tool, slides]
+    languages: [Python]
+
+
   - title: "404: Dragon Not Found"
     repo: https://github.com/mykkro/godot-game
     description: >
