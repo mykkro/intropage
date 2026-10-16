@@ -90,7 +90,7 @@ projects:
     repo: https://github.com/mykkro/quest
     description: >
       Educational game in browser. Find way out from a maze by answering test questions. 
-    image: https://github.com/mykkro/kwest/blob/main/docs/screenshot.jpg
+    image: images/kwest.jpg
     image_fit: contain
     image_bg: "#f4e3d6"
     tags: [app, game, maze, languages]
