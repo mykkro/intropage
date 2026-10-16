@@ -85,6 +85,18 @@ projects:
     tags: [app, languages]
     languages: [JavaScript, HTML, CSS]
 
+  - title: Kwest
+    url: https://mykkro.github.io/kwest/
+    repo: https://github.com/mykkro/quest
+    description: >
+      Educational game in browser. Find way out from a maze by answering test questions. 
+    image: https://github.com/mykkro/kwest/blob/main/docs/screenshot.jpg
+    image_fit: contain
+    image_bg: "#f4e3d6"
+    tags: [app, game, maze, languages]
+    languages: [JavaScript, HTML, CSS]
+
+
   - title: LAZER-NG
     repo: https://github.com/mykkro/lazer-ng
     description: >
