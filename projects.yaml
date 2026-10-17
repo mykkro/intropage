@@ -117,6 +117,16 @@ projects:
     tags: [game, shooter, retro, procedural]
     languages: [JavaScript, HTML, CSS]
 
+  - title: Sedma
+    url: https://mykkro.github.io/sedma/
+    repo: https://github.com/mykkro/sedma
+    description: >
+      The popular Czech card game Sedma with a 32-card deck, where sevens are wild and only aces and
+      tens score. Play 1 vs 1 or 2 vs 2 against computer players, in Czech or English.
+    image: https://raw.githubusercontent.com/mykkro/sedma/main/docs/screenshot.png
+    tags: [game, cards, Czech]
+    languages: [JavaScript, HTML, CSS]
+
   - title: Fractal Explorer
     url: https://mykkro.github.io/fractal-explorer-web/
     repo: https://github.com/mykkro/fractal-explorer-web
