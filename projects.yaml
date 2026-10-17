@@ -106,6 +106,17 @@ projects:
     tags: [game, shooter, retro]
     languages: [JavaScript, HTML, Python]
 
+  - title: Lone Vector
+    url: https://mykkro.github.io/lone-vector/
+    repo: https://github.com/mykkro/lone-vector
+    description: >
+      A top-down arcade shooter inspired by Last Mission (Data East, 1986). Fly in 8 directions, hunt down
+      walled enemy bases on planets and in deep space, and destroy their reactor cores before your energy
+      runs out. Everything is generated in code. Playable on touch screens.
+    image: https://raw.githubusercontent.com/mykkro/lone-vector/main/docs/screenshot.png
+    tags: [game, shooter, retro, procedural]
+    languages: [JavaScript, HTML, CSS]
+
   - title: Fractal Explorer
     url: https://mykkro.github.io/fractal-explorer-web/
     repo: https://github.com/mykkro/fractal-explorer-web
