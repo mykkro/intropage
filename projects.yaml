@@ -143,6 +143,17 @@ projects:
     tags: [tool, slides]
     languages: [Python]
 
+  - title: Kalendaar
+    url: https://mykkro.github.io/kalendaar/
+    repo: https://github.com/mykkro/kalendaar
+    description: >
+      A wall calendar designer: pick a photo for every month, tune fonts, colors, paper and layout,
+      and export a print-ready A4 PDF of the whole year. Czech name days and holidays included,
+      and your photos never leave the browser.
+    image: https://raw.githubusercontent.com/mykkro/kalendaar/main/docs/screenshot-desktop.jpg
+    tags: [tool, calendar, print, PDF]
+    languages: [JavaScript, HTML, CSS]
+
 
   - title: "404: Dragon Not Found"
     repo: https://github.com/mykkro/godot-game
