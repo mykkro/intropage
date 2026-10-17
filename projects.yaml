@@ -127,6 +127,16 @@ projects:
     tags: [game, cards, Czech]
     languages: [JavaScript, HTML, CSS]
 
+  - title: Spacecraft
+    url: https://mykkro.github.io/spacecraft/
+    repo: https://github.com/mykkro/spacecraft
+    description: >
+      Asteroids-like space shooter. Shoot the asteroids, mine materials, craft equipment. Beware the space pirates.
+    image: https://raw.githubusercontent.com/mykkro/spacecraft/main/flight-preview.png
+    tags: [game, space]
+    languages: [JavaScript, HTML, CSS]
+
+
   - title: Fractal Explorer
     url: https://mykkro.github.io/fractal-explorer-web/
     repo: https://github.com/mykkro/fractal-explorer-web
