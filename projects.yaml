@@ -107,6 +107,7 @@ projects:
     languages: [JavaScript, HTML, Python]
 
   - title: Fractal Explorer
+    url: https://mykkro.github.io/fractal-explorer-web/
     repo: https://github.com/mykkro/fractal-explorer-web
     description: >
       Escape-time fractals in the browser (Mandelbrot, Julia, Phoenix, Newton and more), rendered
