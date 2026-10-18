@@ -217,6 +217,17 @@ projects:
     tags: [tool, calendar, print, PDF]
     languages: [JavaScript, HTML, CSS]
 
+  - title: Palettizer
+    url: https://mykkro.github.io/palettizer/
+    repo: https://github.com/mykkro/palettizer
+    description: >
+      Map grayscale images to color and reshape the mapping with an editable transfer curve.
+      Designed for heightmaps and scientific scalar data; export the result as PNG, a JSON preset
+      or a 256-color lookup table. Runs entirely in the browser, no dependencies.
+    image: https://raw.githubusercontent.com/mykkro/palettizer/main/screenshot.png
+    tags: [tool, color, palette, image]
+    languages: [JavaScript, HTML, CSS]
+
 
   - title: "404: Dragon Not Found"
     repo: https://github.com/mykkro/godot-game
