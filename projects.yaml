@@ -156,6 +156,17 @@ projects:
     tags: [game, space]
     languages: [JavaScript, HTML, CSS]
 
+  - title: "Zentar: Escape the Belt"
+    url: https://mykkro.github.io/zentar/
+    repo: https://github.com/mykkro/zentar
+    description: >
+      An asteroid-mining and ship-repair campaign. Click drifting asteroids, craft parts, build drones
+      and a reactor, then assemble a warp drive with the help of TOAST-9, your talking toaster engineer.
+      Available in English and Czech.
+    image: https://raw.githubusercontent.com/mykkro/zentar/main/docs/screenshots/screenshot.png
+    tags: [game, space, crafting]
+    languages: [JavaScript, HTML, CSS]
+
 
   - title: Fractal Explorer
     url: https://mykkro.github.io/fractal-explorer-web/
