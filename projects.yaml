@@ -127,6 +127,26 @@ projects:
     tags: [game, cards, Czech]
     languages: [JavaScript, HTML, CSS]
 
+  - title: Starfield
+    url: https://mykkro.github.io/starfield/
+    repo: https://github.com/mykkro/starfield
+    description: >
+      A WebGL revival of an old Unity starfield experiment. Explore colored stars,
+      faint nebula clouds and distant galaxies with orbit and zoom controls.
+    image: https://raw.githubusercontent.com/mykkro/starfield/main/preview.png
+    tags: [demo, WebGL, space]
+    languages: [JavaScript, HTML, CSS]
+
+  - title: Mahjongg
+    url: https://mykkro.github.io/mahjongg/
+    repo: https://github.com/mykkro/mahjongg
+    description: >
+      Mahjongg solitaire with a classic 144-tile turtle layout, hints and undo.
+      Switch between a flat board and an experimental playable WebGL pyramid.
+    image: https://raw.githubusercontent.com/mykkro/mahjongg/main/screenshot-3d.png
+    tags: [game, puzzle, WebGL, 3D]
+    languages: [JavaScript, HTML, CSS]
+
   - title: Spacecraft
     url: https://mykkro.github.io/spacecraft/
     repo: https://github.com/mykkro/spacecraft
