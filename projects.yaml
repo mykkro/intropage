@@ -228,6 +228,17 @@ projects:
     tags: [tool, color, palette, image]
     languages: [JavaScript, HTML, CSS]
 
+  - title: MapMaker
+    url: https://mykkro.github.io/mapmaker/
+    repo: https://github.com/mykkro/mapmaker
+    description: >
+      A procedural fantasy world map generator: seeded terrain and biomes, rivers and lakes,
+      named settlements linked by roads, a zoomed-in layout for every village, and a 3D preview.
+      Runs entirely in the browser.
+    image: https://raw.githubusercontent.com/mykkro/mapmaker/main/docs/screenshot-2d.png
+    tags: [tool, procedural, map, fantasy]
+    languages: [JavaScript, HTML, CSS]
+
 
   - title: "404: Dragon Not Found"
     repo: https://github.com/mykkro/godot-game
@@ -250,4 +261,15 @@ projects:
     image: https://raw.githubusercontent.com/mykkro/ninth-meridian/main/assets/voyage-cover.png
     tags: [game, RPG, languages, prototype]
     languages: [JavaScript, HTML, Python]
+    section: Work in progress
+
+  - title: Gizmo's World
+    url: https://mykkro.github.io/gizmo-squared/
+    repo: https://github.com/mykkro/gizmo-squared
+    description: >
+      A tech demo for a cozy exploration game: wander an endless procedural world with Gizmo,
+      discover biomes, villages, temples and ruins, and collect treasures as the fog of war lifts.
+    image: https://raw.githubusercontent.com/mykkro/gizmo-squared/main/docs/screenshot.png
+    tags: [game, procedural, exploration, tech demo]
+    languages: [TypeScript]
     section: Work in progress
