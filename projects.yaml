@@ -239,6 +239,17 @@ projects:
     tags: [tool, procedural, map, fantasy]
     languages: [JavaScript, HTML, CSS]
 
+  - title: Field Viz
+    url: https://mykkro.github.io/field-viz/
+    repo: https://github.com/mykkro/field-viz
+    description: >
+      A WebGL viewer for 3D vector fields such as air flow: animated streamlines and stream tubes,
+      particles, arrows and slice planes. Includes synthetic flows and terrain wind, imports
+      VTK, NumPy and CSV, and can stream live data from Python.
+    image: https://raw.githubusercontent.com/mykkro/field-viz/main/docs/screenshot.png
+    tags: [tool, WebGL, 3D, visualization]
+    languages: [JavaScript, HTML, Python]
+
 
   - title: "404: Dragon Not Found"
     repo: https://github.com/mykkro/godot-game
