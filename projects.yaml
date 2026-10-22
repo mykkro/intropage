@@ -239,6 +239,18 @@ projects:
     tags: [tool, procedural, map, fantasy]
     languages: [JavaScript, HTML, CSS]
 
+  - title: Fieldwork
+    url: https://mykkro.github.io/fieldwork/
+    repo: https://github.com/mykkro/fieldwork
+    description: >
+      A configurable Leaflet toolkit for geospatial data: temperature and pressure grids,
+      animated wind fields, trajectories and terrain. Embeds in your own page, works with
+      static snapshots, and connects to Python providers for live data and real CUZK elevations.
+    image: https://raw.githubusercontent.com/mykkro/fieldwork/main/docs/screenshot.png
+    tags: [tool, maps, Leaflet, visualization]
+    languages: [JavaScript, HTML, CSS, Python]
+    hosted_on: GitHub Pages
+
   - title: Field Viz
     url: https://mykkro.github.io/field-viz/
     repo: https://github.com/mykkro/field-viz
