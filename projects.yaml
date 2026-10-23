@@ -127,6 +127,16 @@ projects:
     tags: [game, cards, Czech]
     languages: [JavaScript, HTML, CSS]
 
+  - title: Iron Mandate
+    url: https://mykkro.github.io/iron-mandate/
+    repo: https://github.com/mykkro/iron-mandate
+    description: >
+      A gritty fantasy / steampunk card battler. Mine Ore, generate Power, assemble questionable
+      machinery and defeat rival crews to build a better deck. Available in English and Czech.
+    image: https://raw.githubusercontent.com/mykkro/iron-mandate/main/assets/screenshots/gameplay.png
+    tags: [game, cards, steampunk]
+    languages: [JavaScript, HTML, CSS]
+
   - title: Starfield
     url: https://mykkro.github.io/starfield/
     repo: https://github.com/mykkro/starfield
