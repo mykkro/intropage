@@ -272,6 +272,18 @@ projects:
     tags: [tool, WebGL, 3D, visualization]
     languages: [JavaScript, HTML, Python]
 
+  - title: Swarm Atlas
+    url: https://mykkro.github.io/swarmz/
+    repo: https://github.com/mykkro/swarmz
+    description: >
+      A WebGL2 showcase of collective motion: thousands of fish, birds, insects, bats and drones
+      simulated in real time with boids rules. Six scenarios, from a sardine bait ball to a
+      starling murmuration, all plain JSON you can export, edit and import.
+    image: https://raw.githubusercontent.com/mykkro/swarmz/main/docs/bait-ball.png
+    tags: [demo, WebGL2, 3D, simulation]
+    languages: [JavaScript, HTML]
+    hosted_on: GitHub Pages
+
 
   - title: "404: Dragon Not Found"
     repo: https://github.com/mykkro/godot-game
