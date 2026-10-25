@@ -284,6 +284,17 @@ projects:
     languages: [JavaScript, HTML]
     hosted_on: GitHub Pages
 
+  - title: A-quarko
+    url: https://mykkro.github.io/a-quarko/
+    repo: https://github.com/mykkro/a-quarko
+    description: >
+      A cozy little WebGL aquarium built with Three.js: a sand island with swaying plants, drifting
+      fish schools, crabs and snails. Customize over two dozen varieties, lighting and time of day,
+      and hide the interface for a distraction-free view. Available in English and Czech.
+    image: https://raw.githubusercontent.com/mykkro/a-quarko/main/screenshots/a-quarko-hero.png
+    tags: [demo, three.js, aquarium]
+    languages: [JavaScript, HTML, CSS]
+
 
   - title: "404: Dragon Not Found"
     repo: https://github.com/mykkro/godot-game
