@@ -329,3 +329,15 @@ projects:
     tags: [game, procedural, exploration, tech demo]
     languages: [TypeScript]
     section: Work in progress
+
+  - title: Mouse Quest
+    url: https://mykkro.github.io/mouse-quest/
+    repo: https://github.com/mykkro/mouse-quest
+    description: >
+      A rat parkour prototype: guide a rigged, animated rat along narrow beams, across gaps and up
+      stairs to the goal. Fall off and you start again. The rat is rigged and animated by a
+      headless Blender pipeline.
+    image: https://raw.githubusercontent.com/mykkro/mouse-quest/master/docs/images/game.png
+    tags: [game, three.js, 3D, parkour, prototype]
+    languages: [JavaScript, Python, HTML]
+    section: Work in progress
